@@ -1,22 +1,37 @@
-.App {
-  text-align: center;
-}
+/* Home Content */
+@import url("https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Oswald&display=swap");
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.full_container {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Home_container {
+  width: 100%;
+  background-color: white;
+  color: blue;
+  height: 100vh;
+}
+.About_container {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.Works_container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 0, 0);
+  color: white;
+}
+.Skills_container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 255, 255);
+}
+.Contact_container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 0, 255);
+  color: white;
 }

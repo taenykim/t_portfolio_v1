@@ -1,0 +1,67 @@
+/* menu */
+
+.menu_container {
+  display: flex;
+  position: fixed;
+  height: 65px;
+  width: 100vw;
+  z-index: 10;
+  background-color: blue;
+  transition: all 0.35s;
+}
+.home {
+  position: fixed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  left: 0%;
+  display: flex;
+  cursor: pointer;
+}
+.menu_list {
+  color: black;
+  position: fixed;
+  margin: 20px;
+  right: 0%;
+  display: flex;
+}
+.menu_item {
+  cursor: pointer;
+}
+.menu_a {
+  margin-left: 25px;
+  position: relative;
+  display: inline-table;
+  overflow: hidden;
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+}
+.menu_a span {
+  margin-left: 5px;
+  margin-right: 15px;
+  position: relative;
+  z-index: 20;
+  transition: all 0.35s;
+}
+
+.menu_a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: blue;
+  top: 0;
+  left: -100%;
+  transition: all 0.35s;
+  z-index: 10;
+}
+
+.menu_item:hover .menu_a::before {
+  left: 0;
+}
+.menu_item:hover .menu_a {
+  color: white;
+}
+.menu_item:active .menu_a {
+  color: white;
+}
