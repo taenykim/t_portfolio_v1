@@ -1,18 +1,86 @@
+.Skills_title {
+  font-family: "Dosis", "san-selif";
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 80px;
+  padding-top: 10px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted black;
+  padding-bottom: 10px;
+}
+.Skills_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", "san-selif";
+  font-weight: 800;
+  margin-left: 80px;
+  margin-top: 80px;
+  font-size: 100px;
+}
+
+.bar_Skills_title {
+  font-family: "Dosis", "san-selif";
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 40px;
+  padding-top: 40px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted black;
+  padding-bottom: 10px;
+}
+.bar_Skills_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", "san-selif";
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+
+
+
 .Content_title {
-    font-family: "Dosis", "san-selif";
-    font-size: 40px;
-    font-weight: 800;
-    margin-left: 80px;
-    margin-top: 100px;
-    text-decoration: underline;
-  }
-  .Content_desc {
-    display: flex;
-    flex-direction: column;
-    font-family: "Dosis", "san-selif";
-    font-weight: 800;
-    margin-left: 80px;
-    margin-top: 80px;
-    font-size: 100px;
-  }
-  
+  font-family: "Dosis", "san-selif";
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 80px;
+  padding-top: 10px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted white;
+  padding-bottom: 10px;
+}
+.Content_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", "san-selif";
+  font-weight: 800;
+  margin-left: 80px;
+  margin-top: 80px;
+  font-size: 100px;
+}
+
+.bar_Content_title {
+  font-family: "Dosis", "san-selif";
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 40px;
+  padding-top: 40px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted white;
+  padding-bottom: 10px;
+}
+.bar_Content_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", "san-selif";
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 50px;
+}

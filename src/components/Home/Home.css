@@ -1,3 +1,10 @@
+.Home_container {
+  width: 100%;
+  background-color: white;
+  color: blue;
+  height: 100vh;
+  overflow: hidden;
+}
 .Home_title {
   font-family: "Dosis", "san-selif";
   font-size: 40px;
@@ -14,4 +21,27 @@
   margin-left: 80px;
   margin-top: 80px;
   font-size: 100px;
+}
+
+
+
+
+/* mobile */
+
+.bar_Home_title {
+  font-family: "Dosis", "san-selif";
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+.bar_Home_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Dosis", "san-selif";
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 50px;
 }

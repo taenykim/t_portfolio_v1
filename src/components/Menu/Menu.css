@@ -65,3 +65,54 @@
 .menu_item:active .menu_a {
   color: white;
 }
+
+
+
+
+
+/* mobile menu */
+
+.bar_menu_container{
+  display: flex;
+  position: fixed;
+  height: 65px;
+  width: 100vw;
+  z-index: 10;
+  background-color: blue;
+  transition: all 0.35s;
+}
+.bar_home {
+  position: fixed;
+  right:0%;
+  bottom: 0%;
+  margin-bottom: 10%;
+  display: flex;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: white;
+}
+.bar_menu_list {
+  color: white;
+  position: fixed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.bar_menu_a {
+  position: relative;
+  display: inline-table;
+  overflow: hidden;
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+}
+.bar_menu_a span {
+  position: relative;
+  z-index: 20;
+  transition: all 0.35s;
+}
+
+.bar_menu_item:active .bar_menu_a {
+  color: white;
+}
