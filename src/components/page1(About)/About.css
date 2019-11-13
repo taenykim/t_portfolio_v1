@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Sunflower:300&display=swap');
 .About_title {
   font-family: "Dosis", "san-selif";
   font-size: 40px;
   font-weight: 800;
-  margin-left: 80px;
-  margin-top: 80px;
+  padding-left: 80px;
+  padding-top: 80px;
   text-decoration: underline;
+  width: 100%;
+  height: 60px;
 }
 .About_desc {
   border-top: 3px dotted white;
+  /* border-bottom: 3px dotted white; */
   display: flex;
   position: relative;
   flex-direction: column;
-  font-family: "Dosis", "san-selif";
   font-weight: 800;
   margin-top: 80px;
   width: 100%;
-  height: 100%;
 }
 .desc_container {
+  font-family: "Noto Sans KR", "san-selif";
+  font-weight: 900;
   position: absolute;
   display: flex;
   align-items: center;
@@ -27,8 +31,12 @@
   top: 0;
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 100px;
 }
 .desc_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
   margin: 20px;
 }
@@ -43,4 +51,7 @@
 }
 .desc_item:nth-child(3) {
   flex: 1;
+}
+.desc_item_article{
+  margin-left: 20px;
 }

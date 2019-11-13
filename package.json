@@ -12,8 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "yarn build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,6 +32,7 @@
   },
   "homepage": "http://taenykim.github.io/t_portfolio_v1",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "gh-pages": "^2.1.1"
   }
 }
