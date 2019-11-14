@@ -6,14 +6,14 @@
   height: 65px;
   width: 100vw;
   z-index: 10;
-  background-color: blue;
+  background-color: rgba(34,31,194,1);
   transition: all 0.35s;
 }
 .home {
   position: fixed;
   margin-top: 20px;
   margin-bottom: 20px;
-  left: 0%;
+  left: 5%;
   display: flex;
   cursor: pointer;
 }
@@ -21,7 +21,7 @@
   color: white;
   position: fixed;
   margin: 20px;
-  right: 0%;
+  right: 15%;
   display: flex;
 }
 .menu_item {
@@ -32,8 +32,8 @@
   position: relative;
   display: inline-table;
   overflow: hidden;
-  font-family: "Dosis", sans-serif;
-  font-weight: 800;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
 }
 .menu_a span {
   margin-left: 5px;
@@ -49,11 +49,14 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: blue;
+  background: rgba(34,31,194,1);
   top: 0;
   left: -100%;
   transition: all 0.35s;
   z-index: 10;
+}
+.menu_item:nth-child(3) > .menu_a::before {
+  background: red;
 }
 
 .menu_item:hover .menu_a::before {
@@ -78,7 +81,7 @@
   height: 65px;
   width: 100vw;
   z-index: 10;
-  background-color: blue;
+  background-color: rgba(34,31,194,1);
   transition: all 0.35s;
 }
 .bar_home {
@@ -104,15 +107,19 @@
   position: relative;
   display: inline-table;
   overflow: hidden;
-  font-family: "Dosis", sans-serif;
-  font-weight: 800;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
 }
 .bar_menu_a span {
   position: relative;
   z-index: 20;
   transition: all 0.35s;
+  margin-left: 5px;
+  margin-right: 15px;
 }
 
 .bar_menu_item:active .bar_menu_a {
   color: white;
 }
+
+

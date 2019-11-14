@@ -1,26 +1,29 @@
+@keyframes home_ani{
+  from {opacity:0%;
+  margin-top: 60px;}
+  to {opacity:100%;
+  margin-top:0px;}
+}
+
 .Home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: white;
-  color: blue;
+  color: rgba(34,31,194,1);
   height: 100vh;
   overflow: hidden;
-}
-.Home_title {
-  font-family: "Dosis", "san-selif";
-  font-size: 40px;
-  font-weight: 800;
-  margin-left: 80px;
-  margin-top: 100px;
-  text-decoration: underline;
 }
 .Home_desc {
   display: flex;
   flex-direction: column;
-  font-family: "Dosis", "san-selif";
-  font-weight: 800;
+  font-family: "Titillium Web", "san-selif";
+  font-weight: 900;
   margin-left: 80px;
   margin-top: 80px;
   font-size: 100px;
+  animation: home_ani 1s ease-out forwards alternate;
 }
 
 
@@ -28,20 +31,15 @@
 
 /* mobile */
 
-.bar_Home_title {
-  font-family: "Dosis", "san-selif";
-  font-size: 20px;
-  font-weight: 800;
-  margin-left: 40px;
-  margin-top: 100px;
-  text-decoration: underline;
-}
 .bar_Home_desc {
   display: flex;
   flex-direction: column;
-  font-family: "Dosis", "san-selif";
-  font-weight: 800;
-  margin-left: 40px;
+  font-family: "Titillium Web", "san-selif";
+  font-weight: 900;
+  margin-left: 40px;  
+  margin-right: 40px;
   margin-top: 40px;
   font-size: 50px;
+  width: 100%;
+  animation: home_ani 1.25s ease forwards alternate;
 }

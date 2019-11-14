@@ -52,27 +52,27 @@ class Menu extends Component {
         menu_container[0].style = "background : white";
         menu_list[0].style = "color:black";
       } else {
-        menu_container[0].style = "background : blue";
+        menu_container[0].style = "background : rgba(34,31,194,1)";
         menu_list[0].style = "color:white";
       }
 
-      if (scrollTop > window.innerHeight*4 - 200) {
+      if (scrollTop > window.innerHeight * 4 - 200) {
         menu_a[1].style = "";
         menu_a[2].style = "";
         menu_a[3].style = "";
-        menu_a[4].style = "background : blue; color:white";
-      } else if (scrollTop > window.innerHeight*3 - 200) {
+        menu_a[4].style = "background : rgba(34,31,194,1); color:white";
+      } else if (scrollTop > window.innerHeight * 3 - 200) {
         menu_a[1].style = "";
         menu_a[2].style = "";
-        menu_a[3].style = "background : blue; color:white";
+        menu_a[3].style = "background : red; color:white";
         menu_a[4].style = "";
-      } else if (scrollTop > window.innerHeight*2 - 200) {
+      } else if (scrollTop > window.innerHeight * 2 - 200) {
         menu_a[1].style = "";
-        menu_a[2].style = "background : blue; color:white";
+        menu_a[2].style = "background : rgba(34,31,194,1); color:white";
         menu_a[3].style = "";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight - 200) {
-        menu_a[1].style = "background : blue; color:white";
+        menu_a[1].style = "background : rgba(34,31,194,1); color:white";
         menu_a[2].style = "";
         menu_a[3].style = "";
         menu_a[4].style = "";
@@ -98,27 +98,27 @@ class Menu extends Component {
         menu_container[0].style = "background : white";
         menu_list[0].style = "color:black";
       } else {
-        menu_container[0].style = "background : blue";
+        menu_container[0].style = "background : rgba(34,31,194,1)";
         menu_list[0].style = "color:white";
       }
 
-      if (scrollTop > window.innerHeight *4-100) {
+      if (scrollTop > window.innerHeight * 4 - 100) {
         menu_a[1].style = "";
         menu_a[2].style = "";
         menu_a[3].style = "";
-        menu_a[4].style = "background : blue; color:white";
-      } else if (scrollTop > window.innerHeight *3-100) {
+        menu_a[4].style = "background : rgba(34,31,194,1); color:white";
+      } else if (scrollTop > window.innerHeight * 3 - 100) {
         menu_a[1].style = "";
         menu_a[2].style = "";
-        menu_a[3].style = "background : blue; color:white";
+        menu_a[3].style = "background : red; color:white";
         menu_a[4].style = "";
-      } else if (scrollTop > window.innerHeight *2-100) {
+      } else if (scrollTop > window.innerHeight * 2 - 100) {
         menu_a[1].style = "";
-        menu_a[2].style = "background : blue; color:white";
+        menu_a[2].style = "background : rgba(34,31,194,1); color:white";
         menu_a[3].style = "";
         menu_a[4].style = "";
-      } else if (scrollTop > window.innerHeight *1-100) {
-        menu_a[1].style = "background : blue; color:white";
+      } else if (scrollTop > window.innerHeight * 1 - 100) {
+        menu_a[1].style = "background : rgba(34,31,194,1); color:white";
         menu_a[2].style = "";
         menu_a[3].style = "";
         menu_a[4].style = "";
@@ -154,7 +154,7 @@ class Menu extends Component {
                     document.getElementById("page1").scrollIntoView();
                   }}
                 >
-                  <span>About</span>
+                  <span>ABOUT</span>
                 </div>
               </li>
               <li className="menu_item">
@@ -164,7 +164,7 @@ class Menu extends Component {
                     document.getElementById("page2").scrollIntoView();
                   }}
                 >
-                  <span>Skills</span>
+                  <span>SKILLS</span>
                 </div>
               </li>
               <li className="menu_item">
@@ -174,7 +174,7 @@ class Menu extends Component {
                     document.getElementById("page3").scrollIntoView();
                   }}
                 >
-                  <span>Works</span>
+                  <span>WORKS</span>
                 </div>
               </li>
               <li className="menu_item">
@@ -184,7 +184,7 @@ class Menu extends Component {
                     document.getElementById("page4").scrollIntoView();
                   }}
                 >
-                  <span>Contact</span>
+                  <span>CONTACT</span>
                 </div>
               </li>
             </ul>
@@ -198,42 +198,42 @@ class Menu extends Component {
                   document.getElementById("pageHome").scrollIntoView();
                 }}
               >
-                Home
+                <span>HOME</span>
               </div>
             </div>
             <ul className="bar_menu_list">
-                <div
-                  className="bar_menu_a"
-                  onClick={() => {
-                    document.getElementById("page1").scrollIntoView();
-                  }}
-                >
-   About
-                </div>
-                <div
-                  className="bar_menu_a"
-                  onClick={() => {
-                    document.getElementById("page2").scrollIntoView();
-                  }}
-                >
-                 Skills
-                </div>
-                <div
-                  className="bar_menu_a"
-                  onClick={() => {
-                    document.getElementById("page3").scrollIntoView();
-                  }}
-                >
-                  Works
-                </div>
-                <div
-                  className="bar_menu_a"
-                  onClick={() => {
-                    document.getElementById("page4").scrollIntoView();
-                  }}
-                >
-                  Contact
-                </div>
+              <div
+                className="bar_menu_a"
+                onClick={() => {
+                  document.getElementById("page1").scrollIntoView();
+                }}
+              >
+                <span>ABOUT</span>
+              </div>
+              <div
+                className="bar_menu_a"
+                onClick={() => {
+                  document.getElementById("page2").scrollIntoView();
+                }}
+              >
+                <span>SKILLS</span>
+              </div>
+              <div
+                className="bar_menu_a"
+                onClick={() => {
+                  document.getElementById("page3").scrollIntoView();
+                }}
+              >
+                <span>WORKS</span>
+              </div>
+              <div
+                className="bar_menu_a"
+                onClick={() => {
+                  document.getElementById("page4").scrollIntoView();
+                }}
+              >
+                <span>CONTACT</span>
+              </div>
             </ul>
           </div>
         )}

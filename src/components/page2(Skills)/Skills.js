@@ -38,18 +38,18 @@ class Skills extends Component {
           <div className="Skills_container" id="page2">
             <div className="Skills_title">Skills</div>
             <div className="Skills_desc">
-              <div>This is</div>
-              <div>Skills</div>
-              <div>Page</div>
+              <div>Basic</div>
+              <div>Developing</div>
+              <div>Design</div>
             </div>
           </div>
         ) : (
           <div className="Skills_container" id="page2">
             <div className="bar_Skills_title">Skills</div>
             <div className="bar_Skills_desc">
-              <div>This is</div>
-              <div>Skills</div>
-              <div>Page</div>
+              <div>Basic</div>
+              <div>Developing</div>
+              <div>Design</div>
             </div>
           </div>
         )}

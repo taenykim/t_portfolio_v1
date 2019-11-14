@@ -1,125 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Sunflower:300&display=swap');
 /* about */
 .About_container {
   width: 100%;
   height: 100vh;
-  background-color: blue;
+  background-color: rgba(34, 31, 194, 1);
   color: white;
   overflow: hidden;
+  position: relative;
 }
 .About_title {
-  font-family: "Dosis", "san-selif";
-    font-size: 40px;
-    font-weight: 800;
-    padding-left: 80px;
-    padding-top: 10px;
-    text-decoration: underline;
-    width: 100%;
-    border-bottom: 3px dotted white;
-    padding-bottom: 10px;
-}
-.About_desc {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  font-weight: 800;
-  margin-top: 80px;
-  width: 100%;
-}
-.desc_container {
-  font-family: "Noto Sans KR", "san-selif";
-  font-weight: 900;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  top: 0;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 100px;
-}
-.desc_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  margin: 20px;
-}
-.desc_item h2 {
-  margin-bottom: 10px;
-}
-.desc_item:nth-child(1) {
-  flex: 1;
-}
-.desc_item:nth-child(2) {
-  flex: 1;
-}
-.desc_item:nth-child(3) {
-  flex: 1;
-}
-.desc_item_article{
-  margin-left: 20px;
-}
-
-
-/*mobile*/
-.bar_About_title {
-  font-family: "Dosis", "san-selif";
-  font-size: 20px;
-  font-weight: 800;
-  padding-left: 40px;
-  padding-top: 40px;
+  font-family: "Titillium Web", "san-selif";
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 80px;
+  padding-top: 10px;
   text-decoration: underline;
   width: 100%;
   border-bottom: 3px dotted white;
   padding-bottom: 10px;
 }
-.bar_About_desc {
-  /* border-bottom: 3px dotted white; */
+.About_desc {
   display: flex;
-  justify-content: center;
-  position: relative;
   flex-direction: column;
-  font-weight: 800;
-  /* margin-top: 20px; */
-  width: 100%;
-  height: 80vh;
-}
-.bar_desc_container {
-  font-family: "Noto Sans KR", "san-selif";
-  font-weight: 900;
   position: absolute;
+  top: 0;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.About_desc h2 {
+  font-family: "Noto Sans KR", "san-selif";
+  font-weight: 700;
+}
+.About_desc p {
+  font-family: "Noto Sans KR", "san-selif";
+  font-weight: 400;
+}
+
+/*mobile*/
+.bar_About_title {
+  font-family: "Titillium Web", "san-selif";
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted white;
+  padding-bottom: 30px;
+}
+.bar_About_desc {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   top: 0;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 20px;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-.bar_desc_item {
-  display: flex;
-  flex: 1;
-  margin: 10px;
+.bar_About_desc h2 {
+  font-family: "Noto Sans KR", "san-selif";
+  font-weight: 700;
 }
-.bar_desc_item h2 {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-.bar_desc_item:nth-child(1) {
-  flex: 1;
-}
-.bar_desc_item:nth-child(2) {
-  flex: 1;
-}
-.bar_desc_item:nth-child(3) {
-  flex: 1;
-}
-.bar_desc_item_article{
-  margin-left: 20px;
-}
-.bar_desc_item_article p{
-  font-size: 10px;
+.bar_About_desc p {
+  font-family: "Noto Sans KR", "san-selif";
+  font-weight: 400;
 }

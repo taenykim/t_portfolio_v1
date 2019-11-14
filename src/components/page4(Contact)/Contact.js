@@ -40,6 +40,8 @@ class Contact extends Component {
                 <div>This is</div>
                 <div>Contact</div>
                 <div>Page</div>
+                <br/>
+                <input/>
               </div>
             </div>
           ) : (
@@ -49,6 +51,8 @@ class Contact extends Component {
                 <div>This is</div>
                 <div>Contact</div>
                 <div>Page</div>
+                <br/>
+                <input/>
               </div>
             </div>
           )}
