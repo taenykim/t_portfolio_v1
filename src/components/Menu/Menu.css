@@ -1,6 +1,23 @@
 /* menu */
+@keyframes menu_ani {
+  from {
+    top: -65px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes bar_home_ani {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 0;
+  }
+}
 
 .menu_container {
+  animation: menu_ani 1s ease-out forwards alternate;
   display: flex;
   position: fixed;
   height: 65px;
@@ -76,6 +93,8 @@
 /* mobile menu */
 
 .bar_menu_container{
+  top:0;
+  animation: menu_ani 1s ease-out forwards alternate;
   display: flex;
   position: fixed;
   height: 65px;
@@ -93,6 +112,7 @@
   cursor: pointer;
   font-size: 25px;
   background-color: white;
+  animation: bar_home_ani 1s ease-out forwards alternate;
 }
 .bar_menu_list {
   color: white;

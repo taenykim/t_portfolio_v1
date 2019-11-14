@@ -1,9 +1,14 @@
-@keyframes home_ani{
-  from {opacity:0%;
-  margin-top: 60px;}
-  to {opacity:100%;
-  margin-top:0px;}
+@keyframes home_ani {
+  from {
+    color: rgba(34, 31, 194, 0);
+    margin-top: 60px;
+  }
+  to {
+    color: rgba(34, 31, 194, 1);
+    margin-top: 0px;
+  }
 }
+
 
 .Home_container {
   display: flex;
@@ -11,7 +16,6 @@
   align-items: center;
   width: 100%;
   background-color: white;
-  color: rgba(34,31,194,1);
   height: 100vh;
   overflow: hidden;
 }
@@ -23,11 +27,10 @@
   margin-left: 80px;
   margin-top: 80px;
   font-size: 100px;
-  animation: home_ani 1s ease-out forwards alternate;
+  animation: home_ani 1s ease-out forwards;
+  animation-delay: 0.5s;
+  color: rgba(34, 31, 194, 0);
 }
-
-
-
 
 /* mobile */
 
@@ -36,10 +39,12 @@
   flex-direction: column;
   font-family: "Titillium Web", "san-selif";
   font-weight: 900;
-  margin-left: 40px;  
+  margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
   font-size: 50px;
   width: 100%;
-  animation: home_ani 1.25s ease forwards alternate;
+  animation: home_ani 1.25s ease forwards;
+  animation-delay: 0.35s;
+  color: rgba(34, 31, 194, 0);
 }
