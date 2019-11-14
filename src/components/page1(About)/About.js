@@ -39,29 +39,69 @@ class About extends Component {
     document.getElementsByTagName("head")[0].appendChild(link);
     return (
       <Fragment>
-        {this.state.desktop?(<div className="About_container" id="page1">
-        <div className="About_title">ABOUT</div>
-        <div className="About_desc">
-         <h2>Think Harder</h2>
-                <p>
-                  영미권에서 자기소개서와 가장 의미가 비슷한 말을 뽑으라면
-                  Personal statement라는 표현이 가장 적절하다. 의미상으로 자기
-                  자신과 자기 자신의 경험에 대해 소개하는 내용으로 같은 의미가
-                  되는 글을 이름 붙이자면 personal statement가 맞다.
-            </p>
-    
-      </div></div>):(<div className="About_container" id="page1">
-        <div className="bar_About_title">ABOUT</div>
-        <div className="bar_About_desc">
-        <h2>Think Harder</h2>
-                <p>
-                  영미권에서 자기소개서와 가장 의미가 비슷한 말을 뽑으라면
-                  Personal statement라는 표현이 가장 적절하다. 의미상으로 자기
-                  자신과 자기 자신의 경험에 대해 소개하는 내용으로 같은 의미가
-                  되는 글을 이름 붙이자면 personal statement가 맞다.
-            </p>
-    
-      </div></div>)}
+        {this.state.desktop ? (
+          <div className="About_container" id="page1">
+            <div className="About_title">ABOUT</div>
+            <div className="About_desc">
+              <h2>Life is</h2>
+              <p>
+                제주도에서 태어나 현재는 수원에서 대학을 다니고 있습니다.
+                대학교에서 인터렉션디자인과 프로그래밍 수업을 듣고 흥미를 느껴
+                프론트엔드 개발 공부를 시작하게 되었습니다.
+              </p>
+              <br />  
+
+              <div className="p_line"></div>
+              <br />        
+
+              <h2>Pursue to</h2>
+              <p>
+                UI/UX와 코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 사용을
+                목표로 하고있습니다.
+              </p>
+              <br />              <br />
+              <div className="p_line"></div>
+              <br />        
+              <h2>Better than me</h2>
+              <p>
+                디자인에도 '취향'이란 것이 있지만 '좋은' 디자인이 존재하듯이
+                자신을 잃지 않는 선에서 끊임없이 자기 스스로를 반성하고
+                숙고하면서 더 나은 사람이 되도록 노력하자는 것이 삶의
+                모토입니다.
+              </p>
+            </div>
+          </div>
+        ) : (
+          <div className="About_container" id="page1">
+            <div className="bar_About_title">ABOUT</div>
+            <div className="bar_About_desc">
+              <h2>Life is</h2>
+              <p>
+                제주도에서 태어나 현재는 수원에서 대학을 다니고 있습니다.
+                대학교에서 인터렉션디자인과 프로그래밍 수업을 듣고 흥미를 느껴
+                프론트엔드 개발 공부를 시작하게 되었습니다.
+              </p>
+              <br />
+              <div className="p_line"></div>
+              <br />        
+              <h2>Pursue to</h2>
+              <p>
+                UI/UX와 코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 사용을
+                목표로 하고있습니다.
+              </p>
+              <br />
+              <div className="p_line"></div>
+              <br />        
+              <h2>Better than me</h2>
+              <p>
+                디자인에도 '취향'이란 것이 있지만 '좋은' 디자인이 존재하듯이
+                자신을 잃지 않는 선에서 끊임없이 자기 스스로를 반성하고
+                숙고하면서 더 나은 사람이 되도록 노력하자는 것이 삶의
+                모토입니다.
+              </p>
+            </div>
+          </div>
+        )}
       </Fragment>
     );
   }

@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import "./Skills.css";
-import logo from "C:/Users/TAENY-KIM/Desktop/태은이의 여정/t_portfolio_v1/src/images/skills/react_logo.png";
+import logo from "./SkillsImage/react_logo.png";
+import c from "./SkillsImage/c.png";
+import java from "./SkillsImage/java.jpg";
 
 class Skills extends Component {
   _isMounted = false;
@@ -59,73 +61,106 @@ class Skills extends Component {
           <div className="Skills_container" id="page2">
             <div className="bar_Skills_title">Skills</div>
             <div className="bar_Skills_desc">
-              <div className="bar_Skills_inner_title"><span>Basic</span></div>
-              <div className="bar_Skills_desc_inner_img_container">
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Korean</p>
+              <div className="bar_Skills_desc_page">
+                <div className="bar_Skills_desc_title">
+                  <span>Basic</span>
                 </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>English</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>C</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Java</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Python</p>
+                <div className="bar_Skills_desc_inner_img_container">
+                  <div className="bar_Skills_desc_inner_img_container_half">
+                    <div className="bar_Skills_inner_img">
+                      <img src={c} className="bar_Skills_img" />
+                      <p>C</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={java} className="bar_Skills_img" />
+                      <p>JAVA</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>C</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Java</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Python</p>
+                    </div>
+                  </div>
+                  <div className="bar_Skills_desc_inner_img_container_half">
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Korean</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>English</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>C</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Java</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Python</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="bar_Skills_inner_title"><span>Programming</span></div>
-              <div className="bar_Skills_desc_inner_img_container">
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Korean</p>
+              <div className="bar_Skills_desc_page">
+                <div className="bar_Skills_desc_title">
+                  <span>Programming & Design</span>
                 </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>English</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>C</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Java</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Python</p>
-                </div>
-              </div>
-              <div className="bar_Skills_inner_title"><span>Design</span></div>
-              <div className="bar_Skills_desc_inner_img_container">
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Korean</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>English</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>C</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Java</p>
-                </div>
-                <div className="bar_Skills_inner_img">
-                  <img src={logo} className="bar_Skills_img" />
-                  <p>Python</p>
+                <div className="bar_Skills_desc_inner_img_container">
+                  <div className="bar_Skills_desc_inner_img_container_half">
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Korean</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>English</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>C</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Java</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Python</p>
+                    </div>
+                  </div>
+                  <div className="bar_Skills_desc_inner_img_container_half">
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Korean</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>English</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>C</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Java</p>
+                    </div>
+                    <div className="bar_Skills_inner_img">
+                      <img src={logo} className="bar_Skills_img" />
+                      <p>Python</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

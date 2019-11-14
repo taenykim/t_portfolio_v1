@@ -31,53 +31,56 @@
   padding-bottom: 30px;
 }
 .bar_Skills_desc {
-  overflow: visible;
   display: flex;
+  justify-content: stretch;
   flex-direction: column;
   font-family: "Titillium Web", "san-selif";
+  height: 85vh;
   font-weight: 900;
   margin-left: 25px;
+  margin-right: 25px;
   margin-top: 10px;
   font-size: 20px;
+  position: relative;
 }
-.bar_Skills_desc_inner_img_container {
-  display: flex;
-  overflow: scroll;
-}
-.bar_Skills_inner_img {
-  margin-right: 15px;
-  margin-left: 5px;
-  display: flex;
-  height: 100px;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.bar_Skills_inner_title {
+.bar_Skills_desc_title {
   margin-top: 10px;
   background-color: yellow;
   width: fit-content;
+  margin-bottom: 20px;
 }
-.bar_Skills_inner_title span {
+.bar_Skills_desc_title span {
   margin-left: 5px;
   margin-right: 15px;
   background-color: yellow;
 }
-
-.bar_Skills_inner_img p {
-  font-size: 15px;
-  width: 70px;
+.bar_Skills_desc_page {
+  flex: 1;
+}
+.bar_Skills_desc_inner_img_container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.bar_Skills_desc_inner_img_container_half {
+  display: flex;
+}
+.bar_Skills_inner_img {
+  /* width: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+.bar_Skills_inner_img p {
+  font-size: 10px;
+  font-weight: 900;
   margin-top: 10px;
-  font-weight: 700;
 }
 .bar_Skills_img {
   /* display: inline-block; */
-  width: 70px;
-  height: 70px;
-  border-radius: 30px 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 21px 21px;
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-right: 2rem; */
