@@ -6,7 +6,7 @@
   padding-top: 20px;
   text-decoration: underline;
   width: 100%;
-  border-bottom: 3px dotted white;
+  border-bottom: 3px dotted rgba(96,74,138);
   padding-bottom: 30px;
 }
 .Contact_desc {
@@ -26,16 +26,16 @@
   padding-top: 20px;
   text-decoration: underline;
   width: 100%;
-  border-bottom: 3px dotted white;
+  border-bottom: 3px dotted rgba(96,74,138);
   padding-bottom: 30px;
 }
 .bar_Contact_desc {
+  color: rgba(96,74,138);
   display: flex;
   flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  font-weight: 300;
+  font-family: "escore8";
   margin-top: 40px;
-  font-size: 1rem;
+  font-size: 13px;
   width: 100%;
 }
 .contact_form {
@@ -46,5 +46,7 @@
   width: 100%;
 }
 .contact_data{
-    margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Menu.css";
-import logo from './mylogo3.png';
+import logo from './1123.png';
 
 class Menu extends Component {
   _isMounted = false;
@@ -51,9 +51,9 @@ class Menu extends Component {
       const menu_list = document.getElementsByClassName("menu_list");
       if (scrollTop > 0) {
         menu_container[0].style = "background : white";
-        menu_list[0].style = "color:black";
+        menu_list[0].style = "color:rgba(96,74,138)";
       } else {
-        menu_container[0].style = "background : rgba(34,31,194,1)";
+        menu_container[0].style = "background : rgba(96,74,138)";
         menu_list[0].style = "color:white";
       }
 
@@ -61,7 +61,7 @@ class Menu extends Component {
         menu_a[1].style = "";
         menu_a[2].style = "";
         menu_a[3].style = "";
-        menu_a[4].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[4].style = "background : rgba(96,74,138); color:white";
       } else if (scrollTop > window.innerHeight * 3 - 200) {
         menu_a[1].style = "";
         menu_a[2].style = "";
@@ -69,11 +69,11 @@ class Menu extends Component {
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 2 - 200) {
         menu_a[1].style = "";
-        menu_a[2].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[2].style = "background : rgba(96,74,138); color:white";
         menu_a[3].style = "";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight - 200) {
-        menu_a[1].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[1].style = "background : rgba(96,74,138); color:white";
         menu_a[2].style = "";
         menu_a[3].style = "";
         menu_a[4].style = "";
@@ -97,9 +97,9 @@ class Menu extends Component {
       const menu_list = document.getElementsByClassName("bar_menu_list");
       if (scrollTop > 0) {
         menu_container[0].style = "background : white";
-        menu_list[0].style = "color:black";
+        menu_list[0].style = "color:rgba(96,74,138)";
       } else {
-        menu_container[0].style = "background : rgba(34,31,194,1)";
+        menu_container[0].style = "background : rgba(96,74,138)";
         menu_list[0].style = "color:white";
       }
 
@@ -107,7 +107,7 @@ class Menu extends Component {
         menu_a[1].style = "";
         menu_a[2].style = "";
         menu_a[3].style = "";
-        menu_a[4].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[4].style = "background : rgba(96,74,138); color:white";
       } else if (scrollTop > window.innerHeight * 3 - 100) {
         menu_a[1].style = "";
         menu_a[2].style = "";
@@ -115,11 +115,11 @@ class Menu extends Component {
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 2 - 100) {
         menu_a[1].style = "";
-        menu_a[2].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[2].style = "background : rgba(96,74,138); color:white";
         menu_a[3].style = "";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 1 - 100) {
-        menu_a[1].style = "background : rgba(34,31,194,1); color:white";
+        menu_a[1].style = "background : rgba(96,74,138); color:white";
         menu_a[2].style = "";
         menu_a[3].style = "";
         menu_a[4].style = "";
