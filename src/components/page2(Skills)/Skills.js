@@ -69,97 +69,89 @@ class Skills extends Component {
                   <div className="bar_Skills_desc_inner_img_container_half">
                     <div className="bar_Skills_inner_img">
                       <img src={c} className="bar_Skills_img" />
-                      <p>C</p>
+                      <p>HTML</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={java} className="bar_Skills_img" />
-                      <p>JAVA</p>
+                      <p>CSS</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>C</p>
+                      <p>JS</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Java</p>
+                      <p>jQuery</p>
                     </div>
-                    <div className="bar_Skills_inner_img">
-                      <img src={logo} className="bar_Skills_img" />
-                      <p>Python</p>
-                    </div>
+              
                   </div>
                   <div className="bar_Skills_desc_inner_img_container_half">
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Korean</p>
+                      <p>DATA Structure</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>English</p>
+                      <p>OOP</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>C</p>
+                      <p>Network</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Java</p>
+                      <p>GITHUB</p>
                     </div>
-                    <div className="bar_Skills_inner_img">
-                      <img src={logo} className="bar_Skills_img" />
-                      <p>Python</p>
-                    </div>
+      
                   </div>
                 </div>
               </div>
+              <div className="p_line" style={{background:"black",
+            marginTop:"3vw",marginBottom:"3vw",width:"60vw", alignSelf:"center"}}></div>
+
               <div className="bar_Skills_desc_page">
+                
                 <div className="bar_Skills_desc_title">
-                  <span>Programming & Design</span>
+                  <span>EXTENSION</span>
                 </div>
                 <div className="bar_Skills_desc_inner_img_container">
                   <div className="bar_Skills_desc_inner_img_container_half">
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Korean</p>
+                      <p>REACT</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>English</p>
+                      <p>NodeJS</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>C</p>
+                      <p>SASS</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Java</p>
+                      <p>AWS</p>
                     </div>
-                    <div className="bar_Skills_inner_img">
-                      <img src={logo} className="bar_Skills_img" />
-                      <p>Python</p>
-                    </div>
+         
                   </div>
                   <div className="bar_Skills_desc_inner_img_container_half">
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Korean</p>
+                      <p>Redux</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>English</p>
+                      <p>Next.js</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>C</p>
+                      <p>REACT Native</p>
                     </div>
                     <div className="bar_Skills_inner_img">
                       <img src={logo} className="bar_Skills_img" />
-                      <p>Java</p>
+                      <p>MySQL</p>
                     </div>
-                    <div className="bar_Skills_inner_img">
-                      <img src={logo} className="bar_Skills_img" />
-                      <p>Python</p>
-                    </div>
+   
                   </div>
                 </div>
               </div>
