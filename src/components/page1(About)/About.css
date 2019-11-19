@@ -58,16 +58,15 @@
   top: 0;
   justify-content: center;
   height: 110vh;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 .bar_About_desc h2 {
-  font-family: "Noto Sans KR", "san-selif";
-  font-weight: 700;
-  font-size: 30px;
+  font-family: "escore6";
+  font-size: 25px;
 }
 .bar_About_desc p {
-  font-family: "Noto Sans KR", "san-selif";
+  font-family: "NotoSans KR";
   font-weight: 400;
   font-size: 13px;
 }

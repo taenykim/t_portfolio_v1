@@ -46,10 +46,10 @@ class Home extends Component {
         ) : (
           <div className="Home_container" id="pageHome">
             <div className="bar_Home_desc">
-              <div>Hello, o_o</div>
-              <div>This Is My</div>
-              <div>Front-end Portfolio </div>
-              <div>v.1</div>
+              <div>Front-end</div>
+              <div>Developer</div>
+              <div>Kim Taeeun's</div>
+              <div>Portfolio v.1</div>
             </div>
           </div>
         )}

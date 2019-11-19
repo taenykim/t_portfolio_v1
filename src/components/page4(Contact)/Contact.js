@@ -52,8 +52,7 @@ class Contact extends Component {
               <div className="contact_data">
               <h2>김태은</h2>
               <div>프론트엔드 개발자</div>
-              <div>UI 디자이너</div>
-              <div>메일주소 sns계정아이콘</div>
+              <div>kimtaeeeny@gmail.com</div>
               <br />
               <br />
               </div>

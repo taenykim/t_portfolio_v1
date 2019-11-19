@@ -16,7 +16,7 @@
   font-weight: 900;
   margin-left: 80px;
   margin-top: 80px;
-  font-size: 100px;
+  font-size: 20px;
 }
 .Skills_desc_inner_img_container {
   display: flex;
@@ -45,19 +45,17 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  height: 85vh;
-  font-weight: 900;
+  font-family: "escore9";
+    height: 85vh;
   /* margin-left: 25px; */
   /* margin-right: 25px; */
-  font-size: 20px;
   position: relative;
 }
 .bar_Skills_desc_title {
   margin-top: 10px;
   color: white;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 20px;
   background-color: rgba(34,31,194,1);
   width: fit-content;
   margin-bottom: 20px;
@@ -97,10 +95,12 @@
 .bar_Skills_inner_img p {
   max-width: 13vw;
   text-align: center;
-  font-size: 0.5rem;
-  font-weight: 700;
-  margin-top: 0.2rem;
-  line-height: 0.45rem;
+  font-size: 7px;
+  margin-top: 7px;
+  line-height: 10px;
+  font-family:"escore4";
+  font-weight: bold;
+  color:black;
 }
 .bar_Skills_img {
   /* display: inline-block; */
@@ -109,7 +109,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-right: 2rem; */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(34,31,194,0.3);
+  border-radius: 10px;
 }
 
 .Content_title {

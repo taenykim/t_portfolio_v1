@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Menu.css";
+import logo from './mylogo3.png';
 
 class Menu extends Component {
   _isMounted = false;
@@ -198,7 +199,7 @@ class Menu extends Component {
                   document.getElementById("pageHome").scrollIntoView();
                 }}
               >
-                <span>HOME</span>
+                <img className="homeImage" src={logo}/>
               </div>
             </div>
             <ul className="bar_menu_list">
