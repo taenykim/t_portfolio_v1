@@ -65,7 +65,7 @@ class Menu extends Component {
       } else if (scrollTop > window.innerHeight * 3 - 200) {
         menu_a[1].style = "";
         menu_a[2].style = "";
-        menu_a[3].style = "background : red; color:white";
+        menu_a[3].style = "background : rgba(96,74,138); color:white";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 2 - 200) {
         menu_a[1].style = "";
@@ -111,7 +111,7 @@ class Menu extends Component {
       } else if (scrollTop > window.innerHeight * 3 - 100) {
         menu_a[1].style = "";
         menu_a[2].style = "";
-        menu_a[3].style = "background : red; color:white";
+        menu_a[3].style = "background : rgba(96,74,138); color:white";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 2 - 100) {
         menu_a[1].style = "";

@@ -120,10 +120,14 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  height: 100%;
 }
 .bar_menu_a {
+  flex: 1;
   position: relative;
-  display: inline-table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   font-family: "escore7";
   font-size: 12px;
@@ -132,8 +136,6 @@
   position: relative;
   z-index: 20;
   transition: all 0.35s;
-  margin-left: 5px;
-  margin-right: 15px;
 }
 
 .bar_menu_item:active .bar_menu_a {
