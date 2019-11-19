@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./Contact.css";
+import logo from './1123.png';
 
 class Contact extends Component {
   _isMounted = false;
@@ -48,7 +49,10 @@ class Contact extends Component {
         ) : (
           <div className="Contact_container" id="page4">
             <div className="bar_Contact_title">Contact</div>
+            <img src={logo} className="contactImage"/>
+
             <div className="bar_Contact_desc">
+
               <div className="contact_data">
               <h2>김태은</h2>
               <div>프론트엔드 개발자</div>
@@ -71,7 +75,7 @@ class Contact extends Component {
 
               <label for="내용">Message</label>
               <br/>
-              <input id="내용" type="text" placeholder="회신을 원하신다면 이메일주소를 남겨주세요." name="내용" style={{height:"21vh"}}/>
+              <input id="내용" type="text" placeholder="회신을 원하신다면 이메일주소를 남겨주세요." name="내용" style={{height:"10vh"}}/>
               <br/>
               <input type="submit" value="전송" /></form>
             </div>

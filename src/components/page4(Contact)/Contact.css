@@ -34,12 +34,11 @@
   display: flex;
   flex-direction: column;
   font-family: "escore8";
-  margin-top: 40px;
-  font-size: 13px;
+  font-size: 11px;
   width: 100%;
 }
 .contact_form {
-  width: 80%;
+  width: 70%;
   align-self: center;
 }
 .contact_form > input {
@@ -49,4 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.contactImage{
+  width: 65vw;
 }
