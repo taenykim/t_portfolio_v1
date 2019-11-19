@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import "./Contact.css"
 
 class Contact extends Component {
   _isMounted = false;
@@ -35,9 +36,9 @@ class Contact extends Component {
           <Fragment>
           {this.state.desktop ? (
             <div className="Contact_container" id="page4">
-              <div className="Content_title">Contact</div>
-              <div className="Content_desc">
-                <div>This is</div>
+              <div className="Contact_title">Contact</div>
+              <div className="Contact_desc">
+                <h1>김태은</h1>
                 <div>Contact</div>
                 <div>Page</div>
                 <br/>
@@ -46,11 +47,13 @@ class Contact extends Component {
             </div>
           ) : (
             <div className="Contact_container" id="page4">
-              <div className="bar_Content_title">Contact</div>
-              <div className="bar_Content_desc">
-                <div>This is</div>
-                <div>Contact</div>
-                <div>Page</div>
+              <div className="bar_Contact_title">Contact</div>
+              <div className="bar_Contact_desc">
+              <h2>김태은</h2>
+                <div>프론트엔드 개발자</div>
+                <div>UI 디자이너</div>
+
+                <br/>
                 <br/>
                 <input/>
               </div>

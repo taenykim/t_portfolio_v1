@@ -1,0 +1,41 @@
+
+.Contact_title{
+    font-family: "Titillium Web", "san-selif";
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: underline;
+    width: 100%;
+    border-bottom: 3px dotted white;
+    padding-bottom: 30px;
+}
+.Contact_desc{
+    display: flex;
+    flex-direction: column;
+    font-family: "Titillium Web", "san-selif";
+    font-weight: 900;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 100px;
+}
+.bar_Contact_title{
+    font-family: "Titillium Web", "san-selif";
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: underline;
+    width: 100%;
+    border-bottom: 3px dotted white;
+    padding-bottom: 30px;
+}
+.bar_Contact_desc{
+    display: flex;
+    flex-direction: column;
+    font-family: "Titillium Web", "san-selif";
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
