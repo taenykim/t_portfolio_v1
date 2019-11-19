@@ -18,7 +18,18 @@
   margin-top: 80px;
   font-size: 100px;
 }
-
+.Skills_desc_inner_img_container {
+  display: flex;
+}
+.skills_img{
+  /* display: inline-block; */
+  width: 5vw;
+  height: 5vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-right: 2rem; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
 .bar_Skills_title {
   font-family: "Titillium Web", "san-selif";
   font-size: 20px;
@@ -46,6 +57,7 @@
   margin-top: 10px;
   color: white;
   font-weight: 600;
+  font-size: 1rem;
   background-color: rgba(34,31,194,1);
   width: fit-content;
   margin-bottom: 20px;
@@ -70,21 +82,22 @@
 }
 .bar_Skills_desc_inner_img_container_half {
   display: flex;
+  align-self: center;
 }
 .bar_Skills_desc_inner_img_container_half:nth-child(2) {
-  margin-top: 7px;
+  margin-top: 2vw;
 }
 .bar_Skills_inner_img {
   /* width: auto; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 15px;
+  margin-right: 2vw;
 }
 .bar_Skills_inner_img p {
   max-width: 13vw;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.7rem;
   font-weight: 700;
   margin-top: 10px;
 }
@@ -92,7 +105,6 @@
   /* display: inline-block; */
   width: 13vw;
   height: 13vw;
-  border-radius: 21px 21px;
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-right: 2rem; */

@@ -24,17 +24,19 @@
   position: absolute;
   top: 0;
   justify-content: center;
-  height: 100vh;
+  height: 110vh;
   padding-left: 25%;
   padding-right: 25%;
 }
 .About_desc h2 {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 700;
+  font-size: 30px;
 }
 .About_desc p {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 400;
+  font-size: 13px;
 }
 
 /*mobile*/
