@@ -49,11 +49,14 @@ class Contact extends Component {
           <div className="Contact_container" id="page4">
             <div className="bar_Contact_title">Contact</div>
             <div className="bar_Contact_desc">
+              <div className="contact_data">
               <h2>김태은</h2>
               <div>프론트엔드 개발자</div>
               <div>UI 디자이너</div>
+              <div>메일주소 sns계정아이콘</div>
               <br />
               <br />
+              </div>
               <form
                 className="gform"
                 className="contact_form"
