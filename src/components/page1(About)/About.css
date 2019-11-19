@@ -9,9 +9,9 @@
 }
 .About_title {
   font-family: "Titillium Web", "san-selif";
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
-  padding-left: 80px;
+  padding-left: 200px;
   padding-top: 10px;
   text-decoration: underline;
   width: 100%;
@@ -23,19 +23,19 @@
   position: absolute;
   top: 0;
   justify-content: center;
-  height: 110vh;
-  padding-left: 25%;
-  padding-right: 25%;
+  height: 100vh;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 .About_desc h2 {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 .About_desc p {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 400;
-  font-size: 13px;
+  font-size: 8px;
 }
 
 /*mobile*/

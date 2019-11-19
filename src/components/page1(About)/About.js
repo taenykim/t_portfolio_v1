@@ -41,7 +41,7 @@ class About extends Component {
       <Fragment>
         {this.state.desktop ? (
           <div className="About_container" id="page1">
-            <div className="About_title">ABOUT</div>
+            {/* <div className="About_title">ABOUT</div> */}
             <div className="About_desc">
               <h2>Life is</h2>
               <p>

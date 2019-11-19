@@ -50,7 +50,7 @@ class Skills extends Component {
       <Fragment>
         {this.state.desktop ? (
           <div className="Skills_container" id="page2">
-            <div className="bar_Skills_title">Skills</div>
+            {/* <div className="bar_Skills_title">Skills</div> */}
             <div className="bar_Skills_desc">
               <div className="bar_Skills_desc_page">
                 <div className="bar_Skills_desc_title">

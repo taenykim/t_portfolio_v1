@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Menu.css";
 import logo from './1123.png';
-import desktoplogo from './123.png';
+import desktoplogo from './55.png';
 
 class Menu extends Component {
   _isMounted = false;
@@ -54,19 +54,19 @@ class Menu extends Component {
         menu_a[1].style = "";
         menu_a[2].style = "";
         menu_a[3].style = "";
-        menu_a[4].style = "background : rgba(96,74,138); color:white";
+        menu_a[4].style = "background : rgb(200, 170, 255); ";
       } else if (scrollTop > window.innerHeight * 3 - 200) {
         menu_a[1].style = "";
         menu_a[2].style = "";
-        menu_a[3].style = "background : rgba(96,74,138); color:white";
+        menu_a[3].style = "background : rgb(200, 170, 255); ";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight * 2 - 200) {
         menu_a[1].style = "";
-        menu_a[2].style = "background : rgba(96,74,138); color:white";
+        menu_a[2].style = "background : rgb(200, 170, 255); ";
         menu_a[3].style = "";
         menu_a[4].style = "";
       } else if (scrollTop > window.innerHeight - 200) {
-        menu_a[1].style = "background : rgba(96,74,138); color:white";
+        menu_a[1].style = "background : rgb(200, 170, 255); ";
         menu_a[2].style = "";
         menu_a[3].style = "";
         menu_a[4].style = "";
@@ -137,7 +137,7 @@ class Menu extends Component {
                   document.getElementById("pageHome").scrollIntoView();
                 }}
               >
-                <img src={logo} className="home_image"/>
+                <img src={desktoplogo} className="home_image"/>
               </div>
             </div>
             <ul className="menu_list">

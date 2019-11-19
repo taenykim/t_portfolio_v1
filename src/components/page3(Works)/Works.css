@@ -1,0 +1,54 @@
+
+.Works_container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(96,74,138);
+    color: white;
+    overflow: hidden;
+  flex-direction: column;
+    display: flex;
+  }
+  .Content_title {
+    font-family: "Titillium Web", "san-selif";
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 10px;
+    text-decoration: underline;
+    width: 100%;
+    border-bottom: 3px dotted white;
+    padding-bottom: 10px;
+  }
+  .Content_desc {
+    display: flex;
+    flex-direction: column;
+    font-family: "Titillium Web", "san-selif";
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bar_Content_title {
+    font-family: "Titillium Web", "san-selif";
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: underline;
+    width: 100%;
+    border-bottom: 3px dotted white;
+    padding-bottom: 30px;
+  }
+  .bar_Content_desc {
+    display: flex;
+    flex-direction: column;
+    font-family: "Titillium Web", "san-selif";
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  

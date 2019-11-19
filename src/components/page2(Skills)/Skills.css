@@ -23,12 +23,13 @@
 }
 .skills_img{
   /* display: inline-block; */
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-right: 2rem; */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(34,31,194,0.3);
+  border-radius: 10px;
 }
 .bar_Skills_title {
   font-family: "Titillium Web", "san-selif";
@@ -111,46 +112,4 @@
   /* margin-right: 2rem; */
   box-shadow: 0 3px 6px rgba(34,31,194,0.3);
   border-radius: 10px;
-}
-
-.Content_title {
-  font-family: "Titillium Web", "san-selif";
-  font-size: 40px;
-  font-weight: 700;
-  padding-left: 80px;
-  padding-top: 10px;
-  text-decoration: underline;
-  width: 100%;
-  border-bottom: 3px dotted white;
-  padding-bottom: 10px;
-}
-.Content_desc {
-  display: flex;
-  flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  font-weight: 900;
-  margin-left: 80px;
-  margin-top: 80px;
-  font-size: 100px;
-}
-
-.bar_Content_title {
-  font-family: "Titillium Web", "san-selif";
-  font-size: 20px;
-  font-weight: 700;
-  padding-left: 40px;
-  padding-top: 20px;
-  text-decoration: underline;
-  width: 100%;
-  border-bottom: 3px dotted white;
-  padding-bottom: 30px;
-}
-.bar_Content_desc {
-  display: flex;
-  flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  font-weight: 900;
-  margin-left: 40px;
-  margin-top: 40px;
-  font-size: 50px;
 }

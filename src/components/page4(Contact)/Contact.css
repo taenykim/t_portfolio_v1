@@ -50,5 +50,8 @@
   align-items: center;
 }
 .contactImage{
+  width: 200px;
+}
+.bar_contactImage{
   width: 65vw;
 }

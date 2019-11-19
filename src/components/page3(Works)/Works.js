@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import "./Works.css"
 
 class Works extends Component {
   _isMounted = false;
@@ -35,7 +36,7 @@ class Works extends Component {
       <Fragment>
         {this.state.desktop ? (
           <div className="Works_container" id="page3">
-            <div className="Content_title">Works</div>
+            {/* <div className="Content_title">Works</div> */}
             <div className="Content_desc">
               <div>This is</div>
               <div>Works</div>
