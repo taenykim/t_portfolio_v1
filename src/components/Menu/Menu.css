@@ -18,38 +18,40 @@
 
 .menu_container {
   animation: menu_ani 1s ease-out forwards alternate;
+  align-items: center;
   display: flex;
   position: fixed;
-  height: 65px;
+  height: 80px;
   width: 100vw;
   z-index: 10;
-  background-color: rgba(96,74,138);
   transition: all 0.35s;
 }
 .home {
   position: fixed;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  left: 5%;
-  display: flex;
-  cursor: pointer;
+  animation: bar_home_ani 1s ease-out forwards alternate;
+  justify-content: center;
+  left: 0%;
 }
+
 .menu_list {
-  color: white;
+  color: rgba(96, 74, 138);
   position: fixed;
-  margin: 20px;
-  right: 15%;
+  right: 5%;
   display: flex;
 }
 .menu_item {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu_a {
-  margin-left: 25px;
+  font-size: 10px;
+  font-family: "escore5";
+  margin-left: 10px;
   position: relative;
   display: inline-table;
   overflow: hidden;
-  font-family: "escore3"
 }
 .menu_a span {
   margin-left: 5px;
@@ -65,14 +67,14 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(96,74,138);
+  background: rgba(96, 74, 138);
   top: 0;
   left: -100%;
   transition: all 0.35s;
   z-index: 10;
 }
 .menu_item:nth-child(3) > .menu_a::before {
-  background: red;
+  background: rgba(96, 74, 138);
 }
 
 .menu_item:hover .menu_a::before {
@@ -85,26 +87,22 @@
   color: white;
 }
 
-
-
-
-
 /* mobile menu */
 
-.bar_menu_container{
-  top:0;
+.bar_menu_container {
+  top: 0;
   animation: menu_ani 1s ease-out forwards alternate;
   display: flex;
   position: fixed;
   height: 56px;
   width: 100vw;
   z-index: 10;
-  background-color: rgba(96,74,138);
+  background-color: rgba(96, 74, 138);
   transition: all 0.35s;
 }
 .bar_home {
   position: fixed;
-  right:0%;
+  right: 0%;
   bottom: 0%;
   display: flex;
   cursor: pointer;
@@ -142,9 +140,16 @@
   color: white;
 }
 
-.homeImage{
+.homeImage {
   background-repeat: no-repeat;
   background-position: center;
   width: 20vw;
   max-width: 100px;
+}
+.home_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80px;
+  max-width: 100px;
+  margin-left: 40px;
 }

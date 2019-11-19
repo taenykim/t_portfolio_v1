@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Menu.css";
 import logo from './1123.png';
+import desktoplogo from './123.png';
 
 class Menu extends Component {
   _isMounted = false;
@@ -47,15 +48,7 @@ class Menu extends Component {
       this.setState({ scrollTop });
       // console.log("scrollTop",scrollTop);
       const menu_a = document.getElementsByClassName("menu_a");
-      const menu_container = document.getElementsByClassName("menu_container");
-      const menu_list = document.getElementsByClassName("menu_list");
-      if (scrollTop > 0) {
-        menu_container[0].style = "background : white";
-        menu_list[0].style = "color:rgba(96,74,138)";
-      } else {
-        menu_container[0].style = "background : rgba(96,74,138)";
-        menu_list[0].style = "color:white";
-      }
+     
 
       if (scrollTop > window.innerHeight * 4 - 200) {
         menu_a[1].style = "";
@@ -144,7 +137,7 @@ class Menu extends Component {
                   document.getElementById("pageHome").scrollIntoView();
                 }}
               >
-                Home
+                <img src={logo} className="home_image"/>
               </div>
             </div>
             <ul className="menu_list">

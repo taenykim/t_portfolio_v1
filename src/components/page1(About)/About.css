@@ -9,13 +9,12 @@
 }
 .About_title {
   font-family: "Titillium Web", "san-selif";
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 700;
   padding-left: 80px;
   padding-top: 10px;
   text-decoration: underline;
   width: 100%;
-  border-bottom: 3px dotted white;
   padding-bottom: 10px;
 }
 .About_desc {

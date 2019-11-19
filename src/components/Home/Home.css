@@ -13,22 +13,31 @@
 .Home_container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.bar_Home_container {
+  display: flex;
+  align-items: center;
   width: 100%;
   background-color: white;
   height: 100vh;
   overflow: hidden;
 }
 .Home_desc {
+  align-self: center;
   display: flex;
   flex-direction: column;
   font-family: "Titillium Web", "san-selif";
   font-weight: 900;
-  margin-left: 80px;
-  margin-top: 80px;
   font-size: 50px;
   animation: home_ani 1s ease-out forwards;
   animation-delay: 0.5s;
   color: rgba(34, 31, 194, 0);
+  margin-left: -300px;
 }
 
 /* mobile */
