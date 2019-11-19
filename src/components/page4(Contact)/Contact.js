@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import "./Contact.css"
+import React, { Component, Fragment } from "react";
+import "./Contact.css";
 
 class Contact extends Component {
   _isMounted = false;
@@ -31,37 +31,53 @@ class Contact extends Component {
       });
     }
   }
-    render() {
-        return (
-          <Fragment>
-          {this.state.desktop ? (
-            <div className="Contact_container" id="page4">
-              <div className="Contact_title">Contact</div>
-              <div className="Contact_desc">
-                <h1>김태은</h1>
-                <div>Contact</div>
-                <div>Page</div>
-                <br/>
-                <input/>
-              </div>
+  render() {
+    return (
+      <Fragment>
+        {this.state.desktop ? (
+          <div className="Contact_container" id="page4">
+            <div className="Contact_title">Contact</div>
+            <div className="Contact_desc">
+              <h1>김태은</h1>
+              <div>Contact</div>
+              <div>Page</div>
+              <br />
+              <input />
             </div>
-          ) : (
-            <div className="Contact_container" id="page4">
-              <div className="bar_Contact_title">Contact</div>
-              <div className="bar_Contact_desc">
+          </div>
+        ) : (
+          <div className="Contact_container" id="page4">
+            <div className="bar_Contact_title">Contact</div>
+            <div className="bar_Contact_desc">
               <h2>김태은</h2>
-                <div>프론트엔드 개발자</div>
-                <div>UI 디자이너</div>
+              <div>프론트엔드 개발자</div>
+              <div>UI 디자이너</div>
+              <br />
+              <br />
+              <form
+                className="gform"
+                className="contact_form"
+                method="post"
+                data-email="kimtaeeeny@naver.com"
+                action="https://script.google.com/macros/s/AKfycbwARlGmkPnxhFCVmSoIpT5LETVZr-NcXgdVe66R/exec"
+              >
+              <label for="이름">Name</label>
+              <br/>
 
-                <br/>
-                <br/>
-                <input/>
-              </div>
+              <input id="이름" type="text" name="이름" placeholder="이름"/>
+              <br/>
+
+              <label for="내용">Message</label>
+              <br/>
+              <input id="내용" type="text" placeholder="회신을 원하신다면 이메일주소를 남겨주세요." name="내용" style={{height:"21vh"}}/>
+              <br/>
+              <input type="submit" value="전송" /></form>
             </div>
-          )}
-        </Fragment>
-        );
-    }
+          </div>
+        )}
+      </Fragment>
+    );
+  }
 }
 
 export default Contact;
