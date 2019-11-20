@@ -33,7 +33,7 @@
   flex-direction: column;
   font-family: "Titillium Web", "san-selif";
   font-weight: 900;
-  font-size: 50px;
+  font-size:60px;
   animation: home_ani 1s ease-out forwards;
   animation-delay: 0.5s;
   color: rgba(34, 31, 194, 0);

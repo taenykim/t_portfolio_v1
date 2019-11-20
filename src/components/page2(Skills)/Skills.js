@@ -51,7 +51,8 @@ class Skills extends Component {
         {this.state.desktop ? (
           <div className="Skills_container" id="page2">
             {/* <div className="bar_Skills_title">Skills</div> */}
-            <div className="bar_Skills_desc">
+            <div className="About_title">Skills<div>주로 리액트를 이용한 웹을 만듭니다.</div></div>
+            <div className="Skills_desc">
               <div className="bar_Skills_desc_page">
                 <div className="bar_Skills_desc_title">
                   <span>Basic</span>
@@ -90,9 +91,9 @@ class Skills extends Component {
               <div
                 className="p_line"
                 style={{
-                  background: "black",
-                  marginTop: "3vw",
-                  marginBottom: "3vw",
+                  background: "rgb(96,74,138)",
+                  marginTop: "20px",
+                  marginBottom: "20px",
                   width: "60vw",
                   alignSelf: "center"
                 }}
@@ -140,7 +141,7 @@ class Skills extends Component {
             </div>
           </div>
         ) : (
-          <div className="Skills_container" id="page2">
+          <div className="bar_Skills_container" id="page2">
             <div className="bar_Skills_title">Skills</div>
             <div className="bar_Skills_desc">
               <div className="bar_Skills_desc_page">

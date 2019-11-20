@@ -43,6 +43,7 @@ class About extends Component {
           <div className="About_container" id="page1">
             {/* <div className="About_title">ABOUT</div> */}
             <div className="About_desc">
+            <div className="About_title">About Me<div>저는 수원에서 개발을 공부하는 김태은입니다.</div></div>
               <h2>Life is</h2>
               <p>
                 제주도에서 태어나 현재는 수원에서 대학을 다니고 있습니다.

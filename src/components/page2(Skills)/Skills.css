@@ -1,3 +1,20 @@
+.Skills_container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;  color: rgba(96,74,138);
+  overflow: hidden;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.bar_Skills_container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;  color: rgba(96,74,138);
+  overflow: hidden;
+
+}
 .Skills_title {
   font-family: "Titillium Web", "san-selif";
   font-size: 40px;
@@ -12,12 +29,13 @@
 .Skills_desc {
   display: flex;
   flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  font-weight: 900;
-  margin-left: 80px;
-  margin-top: 80px;
-  font-size: 20px;
+  font-family: "escore9";
+  justify-content: center;
+  /* margin-left: 25px; */
+  /* margin-right: 25px; */
+  position: relative;
 }
+
 .Skills_desc_inner_img_container {
   display: flex;
 }

@@ -36,6 +36,7 @@
   margin-left: 0;
 }
 .home_image {
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
@@ -57,7 +58,7 @@
   align-items: center;
 }
 .menu_a {
-  font-size: 8px;
+  font-size: 10px;
   font-family: "escore7";
   margin-left: 10px;
   position: relative;

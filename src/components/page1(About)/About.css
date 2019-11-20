@@ -8,14 +8,16 @@
   position: relative;
 }
 .About_title {
-  font-family: "Titillium Web", "san-selif";
-  font-size: 14px;
-  font-weight: 700;
-  padding-left: 200px;
-  padding-top: 10px;
-  text-decoration: underline;
-  width: 100%;
-  padding-bottom: 10px;
+  font-family: "escore9";
+  font-size: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.About_title > div {
+  font-family: "escore3";
+  font-size: 15px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .About_desc {
   display: flex;
@@ -30,12 +32,12 @@
 .About_desc h2 {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
 }
 .About_desc p {
   font-family: "Noto Sans KR", "san-selif";
   font-weight: 400;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 /*mobile*/
