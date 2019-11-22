@@ -1,54 +1,81 @@
-
 .Works_container {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(96,74,138);
-    color: white;
-    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 74, 138);
+  color: white;
+  overflow: hidden;
   flex-direction: column;
-    display: flex;
-  }
-  .Content_title {
-    font-family: "Titillium Web", "san-selif";
-    font-size: 40px;
-    font-weight: 700;
-    padding-left: 80px;
-    padding-top: 10px;
-    text-decoration: underline;
-    width: 100%;
-    border-bottom: 3px dotted white;
-    padding-bottom: 10px;
-  }
-  .Content_desc {
-    display: flex;
-    flex-direction: column;
-    font-family: "Titillium Web", "san-selif";
-    font-weight: 900;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .bar_Content_title {
-    font-family: "Titillium Web", "san-selif";
-    font-size: 20px;
-    font-weight: 700;
-    padding-left: 40px;
-    padding-top: 20px;
-    text-decoration: underline;
-    width: 100%;
-    border-bottom: 3px dotted white;
-    padding-bottom: 30px;
-  }
-  .bar_Content_desc {
-    display: flex;
-    flex-direction: column;
-    font-family: "Titillium Web", "san-selif";
-    font-weight: 900;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  display: flex;
+}
+.Content_title {
+  font-family: "Titillium Web", "san-selif";
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 80px;
+  padding-top: 10px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted white;
+  padding-bottom: 10px;
+}
+.Content_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Titillium Web", "san-selif";
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar_Content_title {
+  font-family: "Titillium Web", "san-selif";
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-decoration: underline;
+  width: 100%;
+  border-bottom: 3px dotted white;
+  padding-bottom: 30px;
+}
+.bar_Content_desc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Titillium Web", "san-selif";
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.button_container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.works_button {
+  border: 1.5px solid white;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 4px;
+  flex: 1;
+}
+.workItem_container {
+  margin-top: 20px;
+  width: 90vw;
+  height: 70vh;
+  background: white;
+  color: black;
+}
+.work_image {
+  width: 90vw;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+.WorkItem_subtitle {
+  font-weight: 900;
+  font-size: 10px;
+}

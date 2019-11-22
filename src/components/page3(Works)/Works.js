@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
-import "./Works.css"
+import "./Works.css";
+import WorkItem from "./WorkItem";
 
 class Works extends Component {
   _isMounted = false;
@@ -47,9 +48,14 @@ class Works extends Component {
           <div className="Works_container" id="page3">
             <div className="bar_Content_title">Works</div>
             <div className="bar_Content_desc">
-              <div>This is</div>
-              <div>Works</div>
-              <div>Page</div>
+              <div className="button_container">
+                <table>
+                  <td className="works_button">fashub</td>
+                  <td className="works_button">portfoliov1</td>
+                  <td className="works_button">none</td>
+                </table>
+              </div>
+              <WorkItem />
             </div>
           </div>
         )}
