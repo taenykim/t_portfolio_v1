@@ -62,20 +62,34 @@
   font-size: 16px;
   padding: 4px;
   flex: 1;
+  cursor: pointer;
 }
 .workItem_container {
   margin-top: 20px;
   width: 90vw;
   height: 70vh;
-  background: white;
+  background: rgb(255,255,255,1);
   color: black;
 }
 .work_image {
   width: 90vw;
-  border: 5px solid white;
+  border: 5px solid rgb(255,255,255,1);
   box-sizing: border-box;
 }
 .WorkItem_subtitle {
   font-weight: 900;
-  font-size: 10px;
+  font-size: 12px;
+  color: #444;
+}
+.WorkItem_title{
+  text-decoration: underline;
+}
+
+.WorkItem_visit{
+  border: 2px solid rgba(96,74,138);
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 0;
+  cursor: pointer;
+  font-weight: 400;
 }
