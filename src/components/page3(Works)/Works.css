@@ -24,6 +24,12 @@
   padding-bottom: 30px;
   text-align: center;
 }
+.Content_title > div {
+  font-family: "escore3";
+  font-size: 15px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 .Content_desc {
   display: flex;
   font-family: "escore9";
@@ -34,6 +40,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin-right: 80px;
 }
 
 .bar_Content_title {
@@ -72,14 +79,43 @@
   cursor: pointer;
 }
 .workItem_container {
-  margin: 30px;
-  width: 15vw;
-  height: 60vh;
+  margin: 40px;
+  width: 12vw;
+  height: 40vh;
   background: rgb(255, 255, 255, 1);
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  box-shadow: rgb(28, 37, 48) 1px 1px, rgb(28, 37, 48) 2px 2px,
+    rgb(28, 37, 48) 3px 3px, rgb(28, 37, 48) 4px 4px, rgb(28, 37, 48) 5px 5px,
+    rgb(28, 37, 49) 6px 6px, rgb(28, 37, 49) 7px 7px, rgb(28, 38, 49) 8px 8px,
+    rgb(28, 38, 49) 9px 9px, rgb(29, 38, 49) 10px 10px,
+    rgb(29, 38, 49) 11px 11px, rgb(29, 38, 50) 12px 12px,
+    rgb(29, 38, 50) 13px 13px, rgb(29, 38, 50) 14px 14px,
+    rgb(29, 39, 50) 15px 15px, rgb(29, 39, 50) 16px 16px,
+    rgb(29, 39, 50) 17px 17px, rgb(29, 39, 51) 18px 18px,
+    rgb(29, 39, 51) 19px 19px, rgb(30, 39, 51) 20px 20px,
+    rgb(30, 39, 51) 21px 21px, rgb(30, 39, 51) 22px 22px,
+    rgb(30, 40, 51) 23px 23px, rgb(30, 40, 52) 24px 24px,
+    rgb(30, 40, 52) 25px 25px, rgb(30, 40, 52) 26px 26px,
+    rgb(30, 40, 52) 27px 27px, rgb(30, 40, 52) 28px 28px,
+    rgb(30, 40, 52) 29px 29px, rgb(31, 41, 53) 30px 30px,
+    rgb(31, 41, 53) 31px 31px, rgb(31, 41, 53) 32px 32px,
+    rgb(31, 41, 53) 33px 33px, rgb(31, 41, 53) 34px 34px,
+    rgb(31, 41, 53) 35px 35px, rgb(31, 41, 54) 36px 36px,
+    rgb(31, 41, 54) 37px 37px, rgb(31, 42, 54) 38px 38px,
+    rgb(31, 42, 54) 39px 39px, rgb(32, 42, 54) 40px 40px,
+    rgb(32, 42, 54) 41px 41px, rgb(32, 42, 55) 42px 42px,
+    rgb(32, 42, 55) 43px 43px, rgb(32, 42, 55) 44px 44px,
+    rgb(32, 43, 55) 45px 45px, rgb(32, 43, 55) 46px 46px,
+    rgb(32, 43, 55) 47px 47px, rgb(32, 43, 56) 48px 48px,
+    rgb(32, 43, 56) 49px 49px, rgb(33, 43, 56) 50px 50px,
+    rgb(33, 43, 56) 51px 51px, rgb(33, 43, 56) 52px 52px,
+    rgb(33, 44, 56) 53px 53px, rgb(33, 44, 57) 54px 54px,
+    rgb(33, 44, 57) 55px 55px, rgb(33, 44, 57) 56px 56px,
+    rgb(33, 44, 57) 57px 57px, rgb(33, 44, 57) 58px 58px,
+    rgb(33, 44, 57) 59px 59px, rgb(34, 45, 58) 60px 60px;
 }
 .bar_workItem_container {
   margin-top: 20px;
@@ -92,40 +128,80 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  box-shadow: 7px 7px black;
 }
 .work_image {
-  width: 15vw;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  width: 12vw;
   border: 5px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
 }
 .bar_work_image {
+  margin-top: -15px;
   width: 90vw;
   max-width: 400px;
-  border: 5px solid rgb(255, 255, 255, 1);
+  border: 10px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
 }
 .WorkItem_subtitle {
-  font-weight: 900;
-  font-size: 12px;
+  font-size: 10px;
   color: #444;
 }
 .WorkItem_title {
   text-decoration: underline;
   margin-top: -5vh;
+  font-size: 20px;
+}
+.bar_WorkItem_subtitle {
+  font-size: 12px;
+  color: #444;
+}
+.bar_WorkItem_title {
+  text-decoration: underline;
+  margin-top: -5vh;
+  font-size: 20px;
 }
 .WorkItem_desc {
+  font-family: "escore6";
   font-size: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-
+.bar_WorkItem_desc {
+  font-family: "escore6";
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.github_image {
+  width: 20px;
+}
 .WorkItem_visit {
   border: 2px solid rgba(96, 74, 138);
   margin-left: 5%;
   margin-right: 5%;
   bottom: 0;
   cursor: pointer;
-  font-weight: 400;
+  font-size: 12px;
+  font-family: "escore5";
+  color: rgba(96, 74, 138);
+}
+.bar_WorkItem_visit {
+  border: 2px solid rgba(96, 74, 138);
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 0;
+  cursor: pointer;
+  font-family: "escore5";
   font-size: 15px;
+  color: rgba(96, 74, 138);
 }
 .WorkItem_visit:nth-child(2) {
+  background: yellow;
+  margin-top: 5px;
+}
+.bar_WorkItem_visit:nth-child(2) {
+  background: yellow;
   margin-top: 10px;
 }

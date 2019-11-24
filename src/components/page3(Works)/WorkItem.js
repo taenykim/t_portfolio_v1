@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import github from './github.png'
 
 class WorkItem extends Component {
   _isMounted = false;
@@ -8,8 +9,8 @@ class WorkItem extends Component {
       width: 0,
       height: 0,
       desktop: true,
-      title: ["Fashub", "portfoliov1", "none"],
-      subtitle: ["패션정보 공유 커뮤니티", "포트폴리오 v1", "none"]
+      title: ["Fashub", "portfoliov1", "crawling"],
+      subtitle: ["패션정보 공유 커뮤니티", "포트폴리오 v1", "크롤링 사이트"]
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -57,10 +58,8 @@ class WorkItem extends Component {
             </div>
 
             <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2 <br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
@@ -82,10 +81,8 @@ class WorkItem extends Component {
             </div>
 
             <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2<br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
@@ -107,10 +104,8 @@ class WorkItem extends Component {
             </div>
 
             <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2 <br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
@@ -127,20 +122,18 @@ class WorkItem extends Component {
               src="https://artfiles.alphacoders.com/609/thumb-60983.jpg"
             />
             <div>
-              <div className="WorkItem_title">{this.state.title[0]}</div>
-              <div className="WorkItem_subtitle">{this.state.subtitle[0]}</div>
+              <div className="bar_WorkItem_title">{this.state.title[0]}</div>
+              <div className="bar_WorkItem_subtitle">{this.state.subtitle[0]}</div>
             </div>
 
-            <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            <div className="bar_WorkItem_desc">
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2 <br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
-              <div className="WorkItem_visit">Visit Website</div>
-              <div className="WorkItem_visit">제작과정노트</div>
+              <div className="bar_WorkItem_visit">Visit Website</div>
+              <div className="bar_WorkItem_visit">제작과정노트</div>
             </div>
           </div>
         )}
@@ -152,20 +145,18 @@ class WorkItem extends Component {
               src="https://artfiles.alphacoders.com/609/thumb-60983.jpg"
             />
             <div>
-              <div className="WorkItem_title">{this.state.title[1]}</div>
-              <div className="WorkItem_subtitle">{this.state.subtitle[1]}</div>
+              <div className="bar_WorkItem_title">{this.state.title[1]}</div>
+              <div className="bar_WorkItem_subtitle">{this.state.subtitle[1]}</div>
             </div>
 
-            <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            <div className="bar_WorkItem_desc">
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2 <br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
-              <div className="WorkItem_visit">Visit Website</div>
-              <div className="WorkItem_visit">제작과정노트</div>
+              <div className="bar_WorkItem_visit">Visit Website</div>
+              <div className="bar_WorkItem_visit">제작과정노트</div>
             </div>
           </div>
         )}
@@ -177,20 +168,18 @@ class WorkItem extends Component {
               src="https://artfiles.alphacoders.com/609/thumb-60983.jpg"
             />
             <div>
-              <div className="WorkItem_title">{this.state.title[2]}</div>
-              <div className="WorkItem_subtitle">{this.state.subtitle[2]}</div>
+              <div className="bar_WorkItem_title">{this.state.title[2]}</div>
+              <div className="bar_WorkItem_subtitle">{this.state.subtitle[2]}</div>
             </div>
 
-            <div className="WorkItem_desc">
-              깃주소, 제작과정노트
-              <br />
-              사용된 기술 넣기
-              <br />
+            <div className="bar_WorkItem_desc">
+            #리액트 #반응형 #nodeJS #mySQL #AWS EC2 <br/><br/>
+              <img src={github} className="github_image" />
               <br />
             </div>
             <div className="WorkItem_footer">
-              <div className="WorkItem_visit">Visit Website</div>
-              <div className="WorkItem_visit">제작과정노트</div>
+              <div className="bar_WorkItem_visit">Visit Website</div>
+              <div className="bar_WorkItem_visit">제작과정노트</div>
             </div>
           </div>
         )}

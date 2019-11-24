@@ -57,7 +57,7 @@ class About extends Component {
 
               <h2>Pursue to</h2>
               <p>
-                UI/UX와 코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 사용을
+                코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 깔끔한 사용을
                 목표로 하고있습니다.
               </p>
               <br />              <br />

@@ -77,7 +77,7 @@ class Works extends Component {
       <Fragment>
         {this.state.desktop ? (
           <div className="Works_container" id="page3">
-            <div className="Content_title">Works</div>
+            <div className="Content_title">Works<div>구현도 중요하지만 완벽한 코드 이해와<br/> 깔끔한 코드의 작성을 목표로 합니다. /*제작과정노트*/</div></div>
             <div className="Content_desc">
               <WorkItem contents={"fashub"} />
               <WorkItem contents={"portfoliov1"} />
@@ -102,7 +102,7 @@ class Works extends Component {
                     portfoliov1
                   </td>
                   <td className="works_button" onClick={this.modeChange3}>
-                    none
+                    crawling
                   </td>
                 </table>
               </div>
