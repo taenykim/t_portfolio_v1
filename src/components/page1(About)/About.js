@@ -43,26 +43,26 @@ class About extends Component {
           <div className="About_container" id="page1">
             {/* <div className="About_title">ABOUT</div> */}
             <div className="About_desc">
-            <div className="About_title">About Me<div>저는 수원에서 개발을 공부하는 김태은입니다.</div></div>
+              <div className="About_title">
+                About Me<div>저는 수원에서 개발을 공부하는 김태은입니다.</div>
+              </div>
               <h2>Life is</h2>
               <p>
                 제주도에서 태어나 현재는 수원에서 대학을 다니고 있습니다.
                 대학교에서 인터렉션디자인과 프로그래밍 수업을 듣고 흥미를 느껴
                 프론트엔드 개발 공부를 시작하게 되었습니다.
               </p>
-              <br />  
-
+              <br />
               <div className="p_line"></div>
-              <br />        
-
+              <br />
               <h2>Pursue to</h2>
               <p>
                 코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 깔끔한 사용을
                 목표로 하고있습니다.
               </p>
-              <br />              <br />
+              <br /> <br />
               <div className="p_line"></div>
-              <br />        
+              <br />
               <h2>Better than me</h2>
               <p>
                 디자인에도 '취향'이란 것이 있지만 '좋은' 디자인이 존재하듯이
@@ -84,15 +84,15 @@ class About extends Component {
               </p>
               <br />
               <div className="p_line"></div>
-              <br />        
+              <br />
               <h2>Pursue to</h2>
               <p>
-                UI/UX와 코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 사용을
+                코드 로직에 있어서 구현 뿐만 아니라 정확한 이해와 깔끔한 사용을
                 목표로 하고있습니다.
               </p>
               <br />
               <div className="p_line"></div>
-              <br />        
+              <br />
               <h2>Better than me</h2>
               <p>
                 디자인에도 '취향'이란 것이 있지만 '좋은' 디자인이 존재하듯이
