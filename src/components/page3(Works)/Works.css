@@ -132,7 +132,7 @@
 }
 .work_image {
   margin-top: -15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   width: 12vw;
   border: 5px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
@@ -186,6 +186,7 @@
   font-size: 12px;
   font-family: "escore5";
   color: rgba(96, 74, 138);
+  padding: 10px;
 }
 .bar_WorkItem_visit {
   border: 2px solid rgba(96, 74, 138);
@@ -196,6 +197,7 @@
   font-family: "escore5";
   font-size: 15px;
   color: rgba(96, 74, 138);
+  padding: 10px;
 }
 .WorkItem_visit:nth-child(2) {
   background: yellow;
