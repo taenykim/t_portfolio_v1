@@ -54,4 +54,5 @@
 }
 .bar_contactImage{
   width: 65vw;
+  max-width: 200px;
 }
