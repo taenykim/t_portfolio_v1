@@ -113,7 +113,7 @@
   bottom: 0%;
   display: flex;
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(241, 204, 255);
   border-radius: 50%;
   animation: bar_home_ani 1s ease-out forwards alternate;
   margin-right: 6vw;

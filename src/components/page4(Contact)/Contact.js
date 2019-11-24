@@ -95,6 +95,7 @@ class Contact extends Component {
 
               <input id="이름" type="text" name="이름" placeholder="이름"/>
               <br/>
+              <br/>
 
               <label for="내용">Message</label>
               <br/>

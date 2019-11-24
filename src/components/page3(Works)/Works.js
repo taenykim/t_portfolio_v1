@@ -3,6 +3,9 @@ import "./Works.css";
 import WorkItem from "./WorkItem";
 
 class Works extends Component {
+  state={
+    mode:"fashub",
+  }
   _isMounted = false;
   constructor(props) {
     super(props);
@@ -32,6 +35,34 @@ class Works extends Component {
       });
     }
   }
+
+  modeChange1 = () => {
+    this.setState({
+      mode: "fashub",
+    });
+    document.getElementsByClassName("works_button")[0].style="background:white; color:rgba(96,74,138)"
+    document.getElementsByClassName("works_button")[1].style="background:rgba(96,74,138); color:white"
+    document.getElementsByClassName("works_button")[2].style="background:rgba(96,74,138); color:white"
+  }
+  modeChange2 = () => {
+    this.setState({
+      mode: "portfoliov1",
+    });
+    document.getElementsByClassName("works_button")[0].style="background:rgba(96,74,138); color:white"
+    document.getElementsByClassName("works_button")[1].style="background:white; color:rgba(96,74,138)"
+    document.getElementsByClassName("works_button")[2].style="background:rgba(96,74,138); color:white"
+
+    console.log(document.getElementsByClassName("works_button")[1]);
+  }
+  modeChange3 = () => {
+    this.setState({
+      mode: "none",
+    });
+    document.getElementsByClassName("works_button")[0].style="background:rgba(96,74,138); color:white"
+    document.getElementsByClassName("works_button")[1].style="background:rgba(96,74,138); color:white"
+    document.getElementsByClassName("works_button")[2].style="background:white; color:rgba(96,74,138)"
+  }
+
   render() {
     return (
       <Fragment>
@@ -50,12 +81,13 @@ class Works extends Component {
             <div className="bar_Content_desc">
               <div className="button_container">
                 <table>
-                  <td className="works_button">fashub</td>
-                  <td className="works_button">portfoliov1</td>
-                  <td className="works_button">none</td>
+                  <td className="works_button" onClick={this.modeChange1} style={{background:"white",
+                color:"rgba(96,74,138)"}}>fashub</td>
+                  <td className="works_button" onClick={this.modeChange2}>portfoliov1</td>
+                  <td className="works_button" onClick={this.modeChange3}>none</td>
                 </table>
               </div>
-              <WorkItem />
+              <WorkItem contents={this.state.mode}/>
             </div>
           </div>
         )}

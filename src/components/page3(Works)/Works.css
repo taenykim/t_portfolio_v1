@@ -70,6 +70,9 @@
   height: 70vh;
   background: rgb(255,255,255,1);
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .work_image {
   width: 90vw;
@@ -83,6 +86,10 @@
 }
 .WorkItem_title{
   text-decoration: underline;
+  margin-top: -5vh;
+}
+.WorkItem_desc{
+  font-size: 10px;
 }
 
 .WorkItem_visit{
@@ -92,4 +99,8 @@
   bottom: 0;
   cursor: pointer;
   font-weight: 400;
+  font-size: 15px;
+}
+.WorkItem_visit:nth-child(2){
+  margin-top: 10px;
 }
