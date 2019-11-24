@@ -4,26 +4,33 @@
   background-color: rgba(96, 74, 138);
   color: white;
   overflow: hidden;
-  flex-direction: column;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bar_Works_container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 74, 138);
+  color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .Content_title {
-  font-family: "Titillium Web", "san-selif";
-  font-size: 40px;
-  font-weight: 700;
-  padding-left: 80px;
-  padding-top: 10px;
-  text-decoration: underline;
-  width: 100%;
-  border-bottom: 3px dotted white;
-  padding-bottom: 10px;
+  font-family: "escore9";
+  font-size: 60px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .Content_desc {
   display: flex;
-  flex-direction: column;
-  font-family: "Titillium Web", "san-selif";
-  font-weight: 900;
-  font-size: 20px;
+  font-family: "escore9";
+  justify-content: center;
+  /* margin-left: 25px; */
+  /* margin-right: 25px; */
+  position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -65,18 +72,33 @@
   cursor: pointer;
 }
 .workItem_container {
+  margin: 30px;
+  width: 15vw;
+  height: 60vh;
+  background: rgb(255, 255, 255, 1);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bar_workItem_container {
   margin-top: 20px;
   width: 90vw;
   height: 70vh;
-  background: rgb(255,255,255,1);
+  background: rgb(255, 255, 255, 1);
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .work_image {
+  width: 15vw;
+  border: 5px solid rgb(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.bar_work_image {
   width: 90vw;
-  border: 5px solid rgb(255,255,255,1);
+  border: 5px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
 }
 .WorkItem_subtitle {
@@ -84,16 +106,16 @@
   font-size: 12px;
   color: #444;
 }
-.WorkItem_title{
+.WorkItem_title {
   text-decoration: underline;
   margin-top: -5vh;
 }
-.WorkItem_desc{
+.WorkItem_desc {
   font-size: 10px;
 }
 
-.WorkItem_visit{
-  border: 2px solid rgba(96,74,138);
+.WorkItem_visit {
+  border: 2px solid rgba(96, 74, 138);
   margin-left: 5%;
   margin-right: 5%;
   bottom: 0;
@@ -101,6 +123,6 @@
   font-weight: 400;
   font-size: 15px;
 }
-.WorkItem_visit:nth-child(2){
+.WorkItem_visit:nth-child(2) {
   margin-top: 10px;
 }
