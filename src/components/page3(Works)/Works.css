@@ -169,7 +169,6 @@
 }
 .bar_WorkItem_title {
   text-decoration: underline;
-  margin-top: -5vh;
   font-size: 20px;
 }
 .WorkItem_desc {
