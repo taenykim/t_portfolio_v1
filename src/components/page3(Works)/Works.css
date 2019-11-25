@@ -118,17 +118,27 @@
     rgb(33, 44, 57) 59px 59px, rgb(34, 45, 58) 60px 60px;
 }
 .bar_workItem_container {
-  margin-top: 20px;
-  width: 80vw;
+  margin-top: 30px;
+  width: 65vw;
   max-width: 400px;
-  height: 70vh;
+  height: 60vh;
   max-height: 800px;
   background: rgb(255, 255, 255, 1);
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  box-shadow: 7px 7px black;
+  box-shadow: rgb(28, 37, 48) 1px 1px, rgb(28, 37, 48) 2px 2px,
+  rgb(28, 37, 48) 3px 3px, rgb(28, 37, 48) 4px 4px, rgb(28, 37, 48) 5px 5px,
+  rgb(28, 37, 49) 6px 6px, rgb(28, 37, 49) 7px 7px, rgb(28, 38, 49) 8px 8px,
+  rgb(28, 38, 49) 9px 9px, rgb(29, 38, 49) 10px 10px,
+  rgb(29, 38, 49) 11px 11px, rgb(29, 38, 50) 12px 12px,
+  rgb(29, 38, 50) 13px 13px, rgb(29, 38, 50) 14px 14px,
+  rgb(29, 39, 50) 15px 15px, rgb(29, 39, 50) 16px 16px,
+  rgb(29, 39, 50) 17px 17px, rgb(29, 39, 51) 18px 18px,
+  rgb(29, 39, 51) 19px 19px, rgb(30, 39, 51) 20px 20px,
+  rgb(30, 39, 51) 21px 21px, rgb(30, 39, 51) 22px 22px,
+  rgb(30, 40, 51) 23px 23px, rgb(30, 40, 52) 24px 24px;
 }
 .work_image {
   margin-top: -15px;
@@ -139,7 +149,7 @@
 }
 .bar_work_image {
   margin-top: -15px;
-  width: 80vw;
+  width: 65vw;
   max-width: 400px;
   border: 10px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
@@ -154,7 +164,7 @@
   font-size: 20px;
 }
 .bar_WorkItem_subtitle {
-  font-size: 12px;
+  font-size: 8px;
   color: #444;
 }
 .bar_WorkItem_title {
@@ -170,7 +180,7 @@
 }
 .bar_WorkItem_desc {
   font-family: "escore6";
-  font-size: 15px;
+  font-size: 12px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -195,9 +205,9 @@
   bottom: 0;
   cursor: pointer;
   font-family: "escore5";
-  font-size: 15px;
+  font-size: 12px;
   color: rgba(96, 74, 138);
-  padding: 5px;
+  padding: 4px;
 }
 .WorkItem_visit:nth-child(2) {
   background: yellow;
