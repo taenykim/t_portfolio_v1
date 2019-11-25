@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/t_portfolio_v1/static/css/main.23d236f9.chunk.css",
-    "main.js": "/t_portfolio_v1/static/js/main.857bf9a4.chunk.js",
-    "main.js.map": "/t_portfolio_v1/static/js/main.857bf9a4.chunk.js.map",
-    "runtime-main.js": "/t_portfolio_v1/static/js/runtime-main.234942a4.js",
-    "runtime-main.js.map": "/t_portfolio_v1/static/js/runtime-main.234942a4.js.map",
-    "static/js/2.60c0c669.chunk.js": "/t_portfolio_v1/static/js/2.60c0c669.chunk.js",
-    "static/js/2.60c0c669.chunk.js.map": "/t_portfolio_v1/static/js/2.60c0c669.chunk.js.map",
+    "main.css": "/t_portfolio_v1/static/css/main.38656782.chunk.css",
+    "main.js": "/t_portfolio_v1/static/js/main.affb5cca.chunk.js",
+    "main.js.map": "/t_portfolio_v1/static/js/main.affb5cca.chunk.js.map",
+    "runtime-main.js": "/t_portfolio_v1/static/js/runtime-main.d7b5765f.js",
+    "runtime-main.js.map": "/t_portfolio_v1/static/js/runtime-main.d7b5765f.js.map",
+    "static/js/2.cbd1ccd3.chunk.js": "/t_portfolio_v1/static/js/2.cbd1ccd3.chunk.js",
+    "static/js/2.cbd1ccd3.chunk.js.map": "/t_portfolio_v1/static/js/2.cbd1ccd3.chunk.js.map",
     "index.html": "/t_portfolio_v1/index.html",
-    "precache-manifest.112dbe303c14616b69d3859ec256cfa6.js": "/t_portfolio_v1/precache-manifest.112dbe303c14616b69d3859ec256cfa6.js",
+    "precache-manifest.05b0faf41a92a94c6d56fed92ef70321.js": "/t_portfolio_v1/precache-manifest.05b0faf41a92a94c6d56fed92ef70321.js",
     "service-worker.js": "/t_portfolio_v1/service-worker.js",
-    "static/css/main.23d236f9.chunk.css.map": "/t_portfolio_v1/static/css/main.23d236f9.chunk.css.map",
+    "static/css/main.38656782.chunk.css.map": "/t_portfolio_v1/static/css/main.38656782.chunk.css.map",
     "static/media/1123.png": "/t_portfolio_v1/static/media/1123.fbfb8b70.png",
     "static/media/55.png": "/t_portfolio_v1/static/media/55.e795780e.png",
     "static/media/App.css": "/t_portfolio_v1/static/media/SCDream9.41be699c.otf",
@@ -18,9 +18,9 @@
     "static/media/react_logo.png": "/t_portfolio_v1/static/media/react_logo.47ce6e77.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.234942a4.js",
-    "static/js/2.60c0c669.chunk.js",
-    "static/css/main.23d236f9.chunk.css",
-    "static/js/main.857bf9a4.chunk.js"
+    "static/js/runtime-main.d7b5765f.js",
+    "static/js/2.cbd1ccd3.chunk.js",
+    "static/css/main.38656782.chunk.css",
+    "static/js/main.affb5cca.chunk.js"
   ]
 }
