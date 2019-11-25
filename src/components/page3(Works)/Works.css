@@ -119,7 +119,7 @@
 }
 .bar_workItem_container {
   margin-top: 20px;
-  width: 90vw;
+  width: 80vw;
   max-width: 400px;
   height: 70vh;
   max-height: 800px;
@@ -139,7 +139,7 @@
 }
 .bar_work_image {
   margin-top: -15px;
-  width: 90vw;
+  width: 80vw;
   max-width: 400px;
   border: 10px solid rgb(255, 255, 255, 1);
   box-sizing: border-box;
@@ -197,7 +197,7 @@
   font-family: "escore5";
   font-size: 15px;
   color: rgba(96, 74, 138);
-  padding: 10px;
+  padding: 5px;
 }
 .WorkItem_visit:nth-child(2) {
   background: yellow;
